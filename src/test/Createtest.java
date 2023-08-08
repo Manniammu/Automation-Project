@@ -11,8 +11,8 @@ public class Createtest extends BaseClass {
 	{
 		CreatePage ob=new CreatePage(driver);
 		ob.createclick();
-		ob.createsetvalues("subithamanus@gmail.com", "Manni@2019");
-		ob.regclick();
+		//ob.createsetvalues("subithamanus@gmail.com", "Manni@2019");
+		//ob.regclick();
 		ob.login("manniammu@gmail.com", "Manni@2019");
 		Thread.sleep(2000);
 		
