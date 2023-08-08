@@ -21,10 +21,13 @@ public class CreatePage {
 				 public void createclick() { driver.findElement(createlink).click(); }
 				 
 				 
-				 public void createsetvalues(String regisemail,String regispass) {
-				driver.findElement(regemail).sendKeys(regisemail);
-				driver.findElement(regpass).sendKeys(regispass); } public void regclick() {
-				driver.findElement(regbutton).click(); }
+				
+					/* Create Account
+					 * public void createsetvalues(String regisemail,String regispass) {
+					 * driver.findElement(regemail).sendKeys(regisemail);
+					 * driver.findElement(regpass).sendKeys(regispass); } public void regclick() {
+					 * driver.findElement(regbutton).click(); }
+					 */
 				 
 	 
 	public void login(String uname,String logpass)
